@@ -10,7 +10,7 @@
                     vb.memory ="256"
                 end
 
-                #controller.vm.provision :shell,path: 'centos-setup.sh'
+               controller.vm.provision :shell,path: 'centos-setup.sh'
         end
 
          (1..3).each do |i|
