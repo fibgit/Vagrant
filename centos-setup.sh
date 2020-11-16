@@ -1,8 +1,7 @@
 #!/bin/bash
 
 sudo yum update -y
-sudo yum install software-properties-common -y
-sudo yum install python -y
+sudo yum install epel-release -y
 sudo yum install ansible -y
 
 
